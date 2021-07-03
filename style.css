@@ -1,0 +1,38 @@
+        *{
+            box-sizing: border-box;
+        }
+
+        .heading {
+            margin-left: 0.5em;
+        }
+
+        .myFilter {
+            margin-bottom: 1em;
+            display: inline-block;
+            margin-left: 2em;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-left: -3em;
+            background-color: transparent;
+            width: fit-content;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 20em;
+            height: auto;
+            padding: 1em;
+            border-radius: 1em;
+            margin-left: 2em;
+            margin-bottom: 1em;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
